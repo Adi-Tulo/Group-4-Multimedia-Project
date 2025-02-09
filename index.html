@@ -1,0 +1,32 @@
+add background image on body which image name jinka.jpg 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traffic Light Simulation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url('jinka.jfif'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+  <h1>Traffic Light Simulation</h1>
+  <p class="description">
+    <strong>Title:Traffic Light Simulation</strong>.<br> is a traffic light simulation that cycles through red, yellow, and green lights.Use the buttons below to start and stop the simulation.
+  </p>
+  <div class="traffic-light">
+    <div class="light red" id="red"></div>
+    <div class="light yellow" id="yellow"></div>
+    <div class="light green" id="green"></div>
+  </div>
+  <div class="controls">
+    <button id="startBtn">Start Simulation</button>
+    <button id="stopBtn">Stop Simulation</button>
+  </div>
+  <div class="timer">
+    <p>Time Remaining: <span id="timeRemaining">00:00</span></p>
+    <footer style="text-align: center; padding: 1rem; background-color: #f8f9fa; border-top: 1px solid #ddd;">
+        <p>&copy; 2025 Jinka University 4th Year Group Four Computer Science Students. All rights reserved.</p>
+      </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
